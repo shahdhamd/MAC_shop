@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assests/css/animate.css">
+  <link rel="stylesheet" href="assests/css/slick.css">
+  <link rel="stylesheet" href="assests/css/slick-theme.css">
+  <link rel="stylesheet" href="assests/css/all.min.css">
+  <link rel="stylesheet" href="assests/css/style.css">
+  <title>Mac</title>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="firstNavbar">
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assests/image/logo.jpg" width="me-auto" height="40px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <form class="d-flex ms-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn " type="submit">Search</button>
+          </form>
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user-large"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="SecondNavbar">
+    <nav class=" bg-dark">
+      <div class="container m-auto">
+        <ul class="d-flex justify-content-center text-white">
+          <li>
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li><a class="nav-link active" aria-current="page" href="#">SHOP</a></li>
+          <li><a class="nav-link active" aria-current="page" href="#">ABOUT</a></li>
+          <li><a class="nav-link active" aria-current="page" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="search py-5">
+    <div class="containe ">
+      <span id="h2Search"></span>
+      <form class="">
+        <input type="text" id="Searchinput" onkeyup="search(this.value)" />
+      </form>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample">
+        <i class="fa-solid fa-sliders"></i> Filter
+      </button>
+      <div class="row coll my-3">
+        <div class="col-md-6">
+          <div class="collapse" id="collapseExample">
+            <ul class=" card-body cardddd">
+              <li class="fw-bold">Filter By Price</li>
+              <li id="prcie1">$10 - $15</li>
+              <li id="prcie2">$16 - $30</li>
+              <li id="prcie3">More than $31</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="collapse" id="collapseExample">
+            <ul class="card-body cardddd">
+              <li class="fw-bold">Filter By Category</li>
+              <li id="pric11">Eyes</li>
+              <li id="pric22">Face</li>
+              <li id="pric33">BRUSHES</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5 d-flex justify-content-center" id="innerProduct">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="containe text-center mt-5">
+      <h5 class="fw-bold">BE FIRST TO OUR CYBER CRAZE DEALS!</h5>
+      <form method="POST">
+        <input type="email" class="inputEmail" placeholder="Your email address" />
+      </form>
+      <span class="icon mb-4"><i class="fa-solid fa-angle-right"></i></span>
+      <p class=" mt-5">BY ENTERING YOUR EMAIL ADDRESS YOU AGREE TO RECEIVE MARKETING EMAILS FROM MAC</p>
+    </div>
+  </div>
+  <div class="final reveal ">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <div class="item">
+            <h4 class="text-center">Company</h4>
+            <ul class="text-center">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Store locations</a></li>
+              <li><a href="#">Our blog</a></li>
+              <li><a href="#">Reviews</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="item">
+            <h4 class="text-center">useful links</h4>
+            <ul class="text-center">
+              <li><a href="#">New products</a></li>
+              <li><a href="#">Best sellers</a></li>
+              <li><a href="#">Bundle & Save</a></li>
+              <li><a href="#">Online Gift Card</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="item">
+            <h4 class="text-center">information</h4>
+            <ul class="text-center">
+              <li><a href="#">Start a return</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Shipping FAQ</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3 ">
+        <div class="col-md-4 itemm">
+          <span>Copyright © 2023 By Shahd Hamad</span>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="./assests/image/logo.jpg" alt="logo" class="w-50" />
+        </div>
+        <div class="col-md-4 text-end">
+          <img src="./assests/image/icon-pay.png" alt="payment methods" class="w-100" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assests/js/bootstrap.bundle.min.js"></script>
+  <script src="assests/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="assests/js/code.jquery.com_jquery-3.7.1.js"></script>
+
+  <script src="assests/js/slick.min.js"></script>
+  <script src="assests/js/main.js"></script>
+</body>
+
+</html>
