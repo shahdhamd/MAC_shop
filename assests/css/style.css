@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: .3 ease;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #0c0d16;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.firstNavbar i {
+    color: black;
+}
+
+.header span {
+    color: red;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.SecondNavbar ul {
+    gap: 3rem;
+    padding: 10px 0;
+}
+
+.containe {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar form button {
+    background: antiquewhite;
+
+}
+
+.navbar form button:hover {
+    background: antiquewhite;
+
+}
+
+.header {
+    height: 95vh;
+}
+
+.header h1 {
+    max-width: 180px;
+}
+
+.header .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-price {
+    display: flex;
+    justify-content: center;
+}
+
+.product-price p {
+    font-size: larger;
+}
+
+.sale_body button {
+    width: fit-content;
+    border-radius: 21px;
+    background-color: aquamarine;
+}
+
+.sale {
+    margin-top: 10px;
+}
+
+.cardd {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 2rem;
+    text-align: center;
+    border: 1px solid #afafaf;
+}
+
+.cardd i {
+    font-size: x-small;
+}
+
+.cardd .seller {
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 16px;
+}
+
+.cardd .first_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+del {
+    color: #757272;
+}
+
+.sale_body button {
+    background-color: #333;
+    color: white;
+}
+
+.sale_body button:hover {
+    opacity: .8;
+    background-color: #333;
+    color: white;
+}
+
+.sale_body span {
+    color: #757272;
+}
+
+.fill {
+    font-weight: bolder;
+    color: #a14040;
+}
+
+.sale .row {
+    gap: 2rem;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.slick-prev {
+    right: 65px;
+    left: unset;
+}
+
+.slick-prev,
+.slick-next {
+    border: 1px solid var(--bg-whit2) !important;
+    transition: 0.2s all;
+    color: var(--bg-dark3) !important;
+    z-index: 999;
+}
+
+.slick-slide {
+    margin-right: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #0c0d16 !important;
+    border-radius: 50%;
+    background: rgb(236, 222, 203);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.slick-next:hover,
+.slick-prev:hover {
+    background-color: var(--bg-primary);
+    color: #af567e;
+}
+
+.slick-arrow {
+    position: absolute;
+    bottom: 0;
+    top: unset;
+    bottom: 50%;
+    color: var(--bg-primary) !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale .slick-next:before {
+    content: "\f105";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+}
+
+.sale .slick-prev:before {
+    content: "\f104";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+}
+
+.slick-prev {
+    left: 2px;
+}
+
+.inputEmail {
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #af567e;
+    box-shadow: none;
+    width: 50%;
+}
+
+.icon {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    right: 28%;
+}
+
+.icon i {
+    font-size: x-large;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer .containe {
+    border-bottom: 1px solid #afafaf;
+}
+
+.final span {
+    color: #7a7878;
+}
+
+.final a {
+    color: #7a7878;
+    font-size: 13px;
+}
+
+.final .itemm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.final .itemm span {
+    font-size: 12px;
+
+
+}
+
+
+.features {
+    background-color: #e6e3e3;
+}
+
+.features i {
+    color: #af567e;
+    font-size: xxx-large;
+}
+
+#image22 {
+    z-index: -99999;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.imageDiv {
+    position: relative;
+}
+
+#image {
+
+    transition: .2s ease;
+}
+
+.imageDiv:hover #image22 {
+    z-index: 1000000;
+    opacity: 1;
+}
+
+.imageDiv:hover #image {
+    z-index: -9999;
+    opacity: 0;
+}
+
+/* ---------------eyes.html----------------  */
+
+.search form {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    display: inline-block;
+}
+
+.search input {
+    border: 1px solid #757272;
+    display: inline-block;
+}
+
+.search button:hover {
+    background-color: antiquewhite;
+
+}
+
+.search button {
+    background-color: antiquewhite;
+}
+
+.search i {
+    color: #7a7878;
+}
+
+.search input {
+    padding: 5px 0;
+}
+
+.search .collapse {
+    width: fit-content;
+    padding: 5px;
+}
+
+.cardddd {
+    padding: 10px;
+    border: 0;
+}
+
+.search .coll {
+    background-color: antiquewhite;
+}
